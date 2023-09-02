@@ -1,10 +1,15 @@
+/**
+ * @file add-gpu.cu
+ * @author Nvidia (Modified by Michael Gathara) 
+ * @brief https://developer.nvidia.com/blog/even-easier-introduction-cuda/
+ * @version 0.1
+ * @date 2023-09-02
+ * 
+ */
 #include <math.h>
 #include <iostream>
 
 
-/**
- * Adopted from: https://developer.nvidia.com/blog/even-easier-introduction-cuda/
- */
 // function to add the elements of two arrays
 __global__
 void add(int n, float *x, float *y) {
