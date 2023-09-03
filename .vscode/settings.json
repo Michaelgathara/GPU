@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.haha": "racket",
+        "vector": "cpp"
+    }
+}
