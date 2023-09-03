@@ -30,7 +30,7 @@ std::vector<int> insertionSort(std::vector<int> arr) {
 }
 
 int main(void) {
-    int N = 1 << 29;
+    int N = 1 << 14;
     std::vector<int> arr(N);
 
     for (int i = 0; i < N; i++) {
