@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.haha": "racket",
-        "vector": "cpp"
+        "vector": "cpp",
+        "chrono": "cpp"
     }
 }
