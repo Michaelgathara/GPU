@@ -30,7 +30,7 @@ int main(void) {
         arr[i] = N - i;
     }
 
-    insertionSort<<<4, 32>>>(arr, N);
+    insertionSort<<<1, 1>>>(arr, N);
 
     cudaDeviceSynchronize();
 
